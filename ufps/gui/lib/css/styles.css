@@ -1,0 +1,43 @@
+h1, h2, h3 {
+    margin-top: 30px;
+}
+.red, .black, .gray, .yellow, .green{
+    width: 100%;
+    padding: 10px;
+}
+.red {
+    background-color: #d61117;
+    color: #FFF;
+}
+.black {
+    background-color: #000000;
+    color: #FFF;
+}
+.gray {
+    background-color: #9d9c9c;
+    color: #FFF;
+}
+.yellow {
+    background-color: #E28821;
+    color: #FFF;
+}
+.green {
+    background-color: #3FA535;
+    color: #FFF;
+}
+.img-row {
+    width: 100%;
+}
+.class {
+    /*color: #d61117;*/
+    /*border: 1px solid #d61117;*/
+    background-color: rgba(255,0,0,.1);
+    border-radius: 5px;
+    padding: 1px 5px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+hr {
+    margin-bottom: 70px;
+    margin-top: 40px;
+}

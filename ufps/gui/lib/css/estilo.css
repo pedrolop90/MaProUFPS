@@ -1,0 +1,197 @@
+body{
+    background-color: #d6d6d6!important;
+    height: 100%;
+}
+.ufps-footer{
+    position: relative;
+    bottom: 0 !important;
+}
+.ufps-panel{
+    margin:4px auto;
+    width: 90%;
+    min-height: 66vh;
+    background-color: rgba(236,240,241,0.7);
+    border-radius: 4px;
+    -webki-border-radius:4px;
+    -moz-border-radius: 4px;
+    box-shadow: 0px 2px 10px #d6d6d6;
+    text-align: center;
+    padding: 11px;
+}
+.ufps-panel-busqueda-avanzada + .ufps-panel{
+    margin-left:20%;
+    width: 85%;
+}
+.ufps-panel-busqueda-avanzada{
+    overflow: auto;
+    float: left;
+    margin-left: -5%;
+    min-height: 66vh;
+    max-height: 66vh;
+    width: 20%;
+    background-color: rgba(236,240,241,0.7);
+    border-radius: 4px;
+    -webki-border-radius:4px;
+    -moz-border-radius: 4px;
+    box-shadow: 0px 2px 10px #d6d6d6;
+    text-align: center;
+    padding: 11px;
+}
+.pane-sesion{
+    width: 50%!important;
+}
+.pane-tab{
+    width: 70%!important;
+}
+
+select{
+    width: 30%;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid #AAA;
+    margin: 5px 2px;
+
+}
+
+
+.ufps-dropdown{
+    width:90px!important;
+}
+textarea{
+    width: 80%;
+    height: 200px;
+
+}
+textarea:focus{
+    border:#d61117 solid 2px;
+
+}
+.ufps-row{
+    margin-top: 30px;
+}
+.btn-table{
+    height:45px!important;
+}
+#equipo{
+    height: 27px;
+}
+ul.ufps-tabs li a:hover {
+    background-color: #2c3e50!important;
+    color:#FFFFFF!important;
+}
+ul.ufps-tabs li a:focus,
+.ufps-tab-active {
+    background-color: #2c3e50;
+    color: #FFFFFF!Important;
+}
+.ufps-btn {
+    background-color: #2c3e50!important;
+}
+.borde-ejercicio{
+    border:#2c3e50 solid 2px!important;
+    border-bottom:#d61117 solid 2px!important;
+    border-top:#d61117 solid 2px!important;
+
+}
+.ufps-modal-header {
+    background-color: #2c3e50!important;
+    color:white;
+    border-bottom:#d61117 solid 4px;
+}
+.ufps-modal-body{
+    background-color: #d6d6d6;
+}
+.ufps-modal-close {
+    color: #d61117!important;
+}
+.ufps-alert{
+    display:none;
+    position: fixed;
+    width: 300px;
+    height:60px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    display: none;
+}
+.checkbox label,
+.radio label{
+    display: inline-block;
+    padding: 5px 15px 5px 40px;
+    position: relative;
+    cursor: pointer;
+}
+.checkbox label:before,
+.radio label:before{
+    content: "";
+    transition-duration: .5s;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(../../imagenes/cuadro.png);
+    position: absolute;
+    left: 17px;
+}
+.radio >  input[type="radio"]:checked + label:before,
+.checkbox > input[type="checkbox"]:checked + label:before{
+    content: "";
+    transition-duration: .5s;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border:none;
+    background-image: url(../../imagenes/bien4.png);
+    position: absolute;
+    left: 17px;
+}
+.ufps-ordenar-botones  input[type="checkbox"] + label,
+.ufps-ordenar-botones  input[type="radio"] + label{
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-bottom:10px;
+}
+.cuerpo_busqueda_avanzada,
+.caja_busqueda_avanzada{
+    visibility: hidden;
+    display: none;
+}
+.caja_busqueda_avanzada + label{
+    display: inline-block;
+    padding: 5px 15px 5px 40px;
+    position: relative;
+    cursor: pointer;
+    font-size: 150%;
+    float: left;
+}
+.caja_busqueda_avanzada + label:before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+    background-image: url(../../imagenes/flecha_arriba.png);
+    position: absolute;
+    left: 17px;
+}
+.ufps-panel-busqueda-avanzada > input[type="checkbox"]:checked + label:before,
+.ufps-panel-busqueda-avanzada > input[type="radio"]:checked + label:before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    border:none;
+    background-image: url(../../imagenes/flecha_abajo.png);
+    position: absolute;
+    left: 17px;
+}
+input[type="checkbox"]:checked + label + div,
+input[type="radio"]:checked + label + div{
+    transition-property: visibility;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    visibility: visible;
+    display: inline;
+}
